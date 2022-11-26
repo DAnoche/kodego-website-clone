@@ -69,36 +69,37 @@
 }
 
 .ft-logo {
+  display: block;
   height: 30.54px;
   width: 153.38px;
-  padding-right: 600px;
+  padding-right: 50px 600px;
 }
 
 .bio-box1 {
   /* border: 1px solid #000; */
-  float: left;
   font-size: 1rem;
   padding: 2%;
-  width: 30%;
-  height: 120px;
+  width: 40%;
+  height: 150px;
+  flex: 1;
 }
 
 .bio-box2 {
   /* border: 1px solid #000; */
-  float: left;
   font-size: 1rem;
-  padding: 2%;
+  padding: 1%;
   width: 30%;
-  height: 120px;
+  height: 187px;
+  flex: 1;
 }
 
 .bio-box3 {
   /* border: 1px solid #000; */
-  float: left;
   font-size: 16px;
   padding: 2%;
   width: 20%;
-  height: 120px;
+  height: 150px;
+  flex: 1;
 }
 
 .bio-box2 li {
@@ -109,6 +110,30 @@
   display: inline;
   float: left;
   width: 50%;
+}
+
+.bio-box2 a:link {
+  color: lightgray;
+  text-decoration: lightgray;
+  background-color: transparent;
+}
+
+.bio-box2 a:hover {
+  color: lightgray;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bio-box2 a:visited {
+  color: lightgray;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bio-box2 a:active {
+  color: lightgray;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .bio-wrapper h3 {
@@ -122,9 +147,9 @@
 }
 
 .bio-wrapper {
-  font-size: 24px;
-  box-sizing: border-box;
-  overflow: hidden;
+  height: 230px;
+  overflow: auto;
+  display: flex;
 }
 
 .bio-wrapper:after {
@@ -134,4 +159,11 @@
   content: " ";
   clear: both;
   height: 0;
+}
+
+.bttm-cont {
+  border-top: 2px solid white;
+  flex: 1;
+  border: 2px solid yellow;
+  width: 100%;
 }
