@@ -1,8 +1,9 @@
-.container {
-  height: 100px;
-  background-color: aqua;
-  margin: 0 90px 0 90px;
-  padding: 24px;
+.bio-box {
+    border: 1px solid #000;
+    float: left;
+    font-size: 1rem;
+    padding: 2%;
+    width: 25%;
 }
 
 .navbar {
