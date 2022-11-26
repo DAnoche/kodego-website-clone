@@ -1,20 +1,43 @@
 .navbar {
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar li {
     display: inline;
+    padding: 10px;
+    margin: auto;
 }
 
 .container {
     height: 100px;
     background-color: aqua;
+    margin: 0 90px 0 90px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    background-color: #274266;
 }
 
 #homeLogo {
     display: inline-block;
     height: 30.54px;
     width: 153.38;
+}
+
+#SignIn-bttn {
+    box-sizing: border-box;
+}
+
+#Apply-bttn {
+    box-sizing: border-box;
 }
