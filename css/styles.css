@@ -62,10 +62,10 @@
 }
 
 .social-network {
-    height: 25px;
-    width: 25px;
-    float: left;
-    margin-right: 25px;
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
 .ft-logo {
@@ -74,26 +74,46 @@
   padding-right: 600px;
 }
 
-.bio-box {
-  border: 1px solid #000;
-  float: left;
-  font-size: 1rem;
-  padding: 2%;
-  width: 20%;
-  height: 150px;
-}
-
 .bio-box1 {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   float: left;
   font-size: 1rem;
   padding: 2%;
   width: 30%;
-  height: 150px;
+  height: 120px;
+}
+
+.bio-box2 {
+  /* border: 1px solid #000; */
+  float: left;
+  font-size: 1rem;
+  padding: 2%;
+  width: 30%;
+  height: 120px;
+}
+
+.bio-box3 {
+  /* border: 1px solid #000; */
+  float: left;
+  font-size: 16px;
+  padding: 2%;
+  width: 20%;
+  height: 120px;
+}
+
+.bio-box2 li {
+  margin: 15px;
+}
+
+.bio-box2 div {
+  display: inline;
+  float: left;
+  width: 50%;
 }
 
 .bio-wrapper h3 {
   color: white;
+  font-size: 16px;
 }
 
 .bio-wrapper li {
@@ -103,6 +123,8 @@
 
 .bio-wrapper {
   font-size: 24px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .bio-wrapper:after {
