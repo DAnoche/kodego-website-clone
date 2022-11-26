@@ -28,7 +28,6 @@
 .navbar {
   display: block;
   list-style-type: none;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: aqua;
   margin: 0 100px 0 100px;
   padding: 24px;
@@ -58,9 +57,12 @@
   width: 25%;
 }
 
+.bio-box h3 {
+    color: white;
+  }
+
 .bio-wrapper {
   font-size: 24px;
-  background-color: #c0e0c3;
   height: 300px;
   overflow: scroll;
 }
