@@ -103,14 +103,50 @@ p {
   padding: 100px;
 }
 
-#coursesID {
+.firstLineID {
   margin-top: -45px;
   margin-bottom: 15px;
   font-size: 50px;
 }
 
-#careerID {
+.secondLineID {
   font-size: 20px;
+}
+
+/* Below this are styles for "Partners"========================> */
+
+.partnerTag1 {
+  color: #274266;
+  text-align: center;
+  padding: 100px;
+}
+
+.partnerTag1 li {
+  list-style-type: ;
+}
+
+.bigText {
+  font-size: 50px;
+  padding: 0 30% 0 30%;
+  margin-bottom: 100px;
+}
+
+.partner-box1 {
+  display: inline-block;
+  text-align: center;
+  margin: 50px;
+}
+
+.partner-box2 {
+  display: inline-block;
+  text-align: center;
+  margin: 50px;
+}
+
+.partner-box3 {
+  display: inline-block;
+  text-align: center;
+  margin: 50px;
 }
 
 /* Below this are styles for "footer"========================> */
