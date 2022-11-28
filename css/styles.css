@@ -157,6 +157,14 @@ p {
   padding: 100px;
 }
 
+/* Below this are styles for "Careers"========================> */
+
+.careersTag {
+  color: #274266;
+  text-align: left;
+  padding: 100px;
+}
+
 /* Below this are styles for "footer"========================> */
 
 .footer {
