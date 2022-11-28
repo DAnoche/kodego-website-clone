@@ -12,10 +12,11 @@ p {
 /* Below this are styles for "Navigation Bar"========================> */
 #homeBG {
   width: 100%;
+  margin-top: 100px;
 }
 
 #SignIn-bttn {
-  background-color: #ffffff;
+  background-color: whitesmoke;
   color: #a3cb38;
   padding: 14px 25px;
   text-align: center;
@@ -25,7 +26,7 @@ p {
 
 #Apply-bttn {
   background-color: #a3cb38;
-  color: white;
+  color: whitesmoke;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
