@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+section {
+  margin-top: 100px;
+}
+
 p {
   margin: 20px 180px 20px 180px;
 }
@@ -89,6 +93,24 @@ p {
   color: #274266;
   text-decoration: none;
   background-color: transparent;
+}
+
+/* Below this are styles for "Courses"========================> */
+
+.coursesTag {
+  color: #274266;
+  text-align: center;
+  padding: 100px;
+}
+
+#coursesID {
+  margin-top: -45px;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+#careerID {
+  font-size: 20px;
 }
 
 /* Below this are styles for "footer"========================> */
