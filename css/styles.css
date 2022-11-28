@@ -149,6 +149,14 @@ p {
   margin: 50px;
 }
 
+/* Below this are styles for "Blogs"========================> */
+
+.blogsTag {
+  color: #274266;
+  text-align: center;
+  padding: 100px;
+}
+
 /* Below this are styles for "footer"========================> */
 
 .footer {
